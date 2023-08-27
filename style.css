@@ -1,0 +1,272 @@
+/* Global styles */
+
+body {
+	font-family:sans-serif;
+	color: #dfd0d0;
+	background-image: url("https://c4.wallpaperflare.com/wallpaper/990/640/969/dark-colors-background-wallpaper-preview.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+    margin-left: 2%;
+	font-size: xx-large;
+	font-family: monospace;
+	font-style: oblique;
+	font-weight: 50%;
+	color: rgb(134, 228, 228);
+}
+
+h2{
+	color: #0f78f0;
+}
+
+h3 {
+	color: #00e1ff;
+	font-weight: bold;
+}
+
+nav ul {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #0ab5bb;
+    transition: 4s;
+	border-radius: 15px ;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: #000000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #00ffdd;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+ul {
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+label {
+	display: inline-block;
+	width: 100px;
+}
+
+input[type="text"], input[type="email"], textarea {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: none;
+}
+
+input[type="submit"] {
+	background-color: #002147;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 400;
+	transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover {
+	background-color: #f9f9f9;
+	color: #002147;
+}
+
+/* Responsive styles */
+
+@media only screen and (max-width: 600px) {
+	nav li {
+		float: none;
+	}
+	
+	nav li a {
+		display: block;
+		text-align: left;
+	}
+}
+footer {
+	background-color: #002147;
+	color: #fff;
+	padding: 20px;
+}
+
+footer p {
+	margin: 0;
+	font-size: 14px;
+	text-align: center;
+} 
+
+/* CTA Styles */
+
+#contact-us {
+	border-radius: 20px ;
+	background-color: #5e0303;
+	padding: 20px ;
+}
+
+#contact-us h2 {
+	margin-top: 0;
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 50px;
+    text-align: center;
+}
+
+#contact-us p {
+	font-size: 24px;
+	line-height: 1.5;
+	margin: 20px 0;
+}
+
+#contact-us h3{
+    font-size: 36px;
+	font-weight: 600;
+    text-align: left;
+}
+form{
+    margin-top: 0;
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* About-Us */
+#about-us {
+	border-radius: 20px ;
+	padding: 100px 0;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ5PFqnpOfUig0h4NEuksShyJ0wQujEWbBIztFCfU-rRzJs6jolncrx8fPQ32mPkGEHUxu24kndUk&usqp=CAU&ec=48665701");
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+}
+
+#about-us h2 {
+	margin-top: 0;
+	font-size: 36px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#about-us p{
+	font-size: 26px;
+	font-family:monospace;
+	line-height: 1.5;
+	margin: 20px 0;
+	flex-grow: 1;
+	text-align: center;
+}
+/* Services Styles */
+
+#services {
+	border-radius: 20px ;
+	background-image: url('https://t3.ftcdn.net/jpg/03/55/73/06/360_F_355730634_dXNLXDEfBIhHvpF6RIgkl8zKok7cnmQH.jpg');
+	padding: 100px 0;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+}
+
+#services h2 {
+	margin-top: 0;
+	font-size: 36px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.service {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.service h3 {
+	margin-left: 10%;
+	padding-right: 5%;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.service p {
+	font-size: 18px;
+	font-family:serif;
+	line-height: 1.5;
+	margin-right: 10% ;
+	flex-grow: 1;
+}
+
+/* Banner Styles */
+
+#banner {
+	border-radius: 20px ;
+	background-image: url('https://cdn.wallpapersafari.com/34/59/8L5i6X.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0;
+	color: #fff;
+	text-align: center;
+}
+
+#banner h2 {
+	font-size: 40px;
+	font-weight: 600;
+	margin-left: 2%;
+	margin-right: 2%;
+	
+}
+
+#banner p {
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 10px 0;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.button {
+	background-color: #002147;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 400;
+	transition: all 0.3s ease;
+}
+
+.button:hover {
+	background-color: #f9f9f9;
+	color: #002147;
+}
+
